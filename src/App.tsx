@@ -19,6 +19,8 @@ import {
   Clock,
   Globe,
   Award,
+  Download,
+  Printer,
   ExternalLink,
   Instagram,
   Phone
@@ -75,7 +77,14 @@ const CoverPage = () => (
     
     <div className="pt-12">
       <div className="flex items-center gap-3 mb-16">
-        <div className="w-12 h-12 bg-dental-blue rounded-xl flex items-center justify-center text-white font-display font-black text-xl">SR</div>
+        <div className="w-12 h-12 rounded-xl overflow-hidden border border-slate-100 shadow-sm">
+          <img 
+            src="https://image2url.com/r2/default/images/1773149545396-f6cd8545-2fb5-443b-ba50-6497db652c79.jpg" 
+            alt="Smile Royale Logo" 
+            className="w-full h-full object-cover"
+            referrerPolicy="no-referrer"
+          />
+        </div>
         <span className="font-display font-bold text-xl tracking-tight text-slate-800 uppercase">Smile Royale <span className="text-dental-blue">Dental</span></span>
       </div>
       
@@ -84,7 +93,7 @@ const CoverPage = () => (
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
       >
-        <h1 className="font-display text-5xl md:text-6xl font-extrabold text-slate-900 leading-[1.1] mb-6">
+        <h1 className="font-display text-6xl font-extrabold text-slate-900 leading-[1.1] mb-6">
           Digital Patient <br />
           <span className="text-dental-blue">Booking Platform</span>
         </h1>
