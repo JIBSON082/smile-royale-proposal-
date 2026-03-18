@@ -127,9 +127,7 @@ const CoverPage = () => (
       </div>
       <div className="text-right">
         <p className="text-[10px] uppercase tracking-widest text-slate-400 font-bold mb-1">Date</p>
-        <p className="font-bold text-slate-800">
-
-10th March 2026</p>
+        <p className="font-bold text-slate-800">10th March 2026</p>
       </div>
     </div>
   </div>
